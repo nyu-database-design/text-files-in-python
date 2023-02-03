@@ -17,7 +17,7 @@ def main():
 
     # loop through each literature work
     for work in list_of_works:
-        msg = "{} {} - {}".format(work["firstName"], work["lastName"], work["title"])
+        msg = "{} {} - {}".format(work["First Name"], work["Last Name"], work["Title"])
         print(msg)
 
 

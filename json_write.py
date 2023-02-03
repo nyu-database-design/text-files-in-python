@@ -13,27 +13,27 @@ def main():
     # a list of dictionaries, containing our data
     works = [
         {
-            "lastName": "Carroll",
-            "firstName": "Lewis",
-            "title": "Jabberwocky",
-            "year": 1871,
+            "Last Name": "Carroll",
+            "First Name": "Lewis",
+            "Title": "Jabberwocky",
+            "Year": 1871,
         },
         {
-            "lastName": "Lear",
-            "firstName": "Edward",
-            "title": "The Jumblies",
-            "year": 1910,
+            "Last Name": "Lear",
+            "First Name": "Edward",
+            "Title": "The Jumblies",
+            "Year": 1910,
         },
         {
-            "lastName": "Bishop",
-            "firstName": "Elizabeth",
-            "title": "The Man-Moth",
-            "year": 1946,
+            "Last Name": "Bishop",
+            "First Name": "Elizabeth",
+            "Title": "The Man-Moth",
+            "Year": 1946,
         },
     ]
 
     # create proper JSON data from this list of dictionaries, indent it nicely
-    json_data = json.dumps(works, indent=4)
+    json_data = json.dumps(works, indent=2)
 
     # write that JSON data to the file
     f = open("data/nonsense_literature.json", "w")
